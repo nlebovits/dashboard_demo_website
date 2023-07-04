@@ -8,7 +8,7 @@ surrounding rate of gun crime and the relative lack of tree canopy cover. One ma
 this presentation was explaining the concept of a Python script to a non-coder audience; it required
 me to think creatively about how to represent code in a more intuitive graphic form.
 
-![Priority chart](website-graphics/priority_table.png)
+![Priority chart](graphics/priority_table.png)
 
 I used a decision tree to suggest the most relevant
 legal process necessary to intervene in every single
@@ -19,5 +19,5 @@ am in the process of getting further input from
 organizations and agencies like the Garden Justice
 Legal Initiative and the Philadelphia Land Bank.
 
-![Decision tree](website-graphics/parcels_decision_tree.png)
+![Decision tree](graphics/parcels_decision_tree.png)
 

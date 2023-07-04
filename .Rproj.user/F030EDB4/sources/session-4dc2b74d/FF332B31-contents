@@ -7,7 +7,7 @@ title: "About"
 
 Philadelphia has a gun violence problem. Homicides have been on the rise since 2013. The past three years—2020, 2021, and 2022—have been the deadliest on record, with a high of 562 homicides in 2021. Community members need solutions, but many city-run initiatives are frustratingly slow or inadequate. Nearly 80% of the city’s anti-violence spending focuses on long-term violence reduction without any clear, immediate impact.
 
-![Annual gun crimes](website-graphics/annual_guncrimes_plot.png)
+![Annual gun crimes](graphics/annual_guncrimes_plot.png)
 
 ## Research
 
@@ -15,9 +15,9 @@ Research shows that greening and cleaning vacant and abandoned parcels is one of
 
 Drs. Eugenia South and Charles Branas have led several studies that demonstrate that greening vacant lots in Philadelphia reduced gun violence by as much as 29% in the surrounding area. Similarly, cleaning and lightly repairing vacant houses led a 13% drop in gun assaults compared to nearby blocks. These “greening and cleaning” interventions not only reduce gun violence but also provide other benefits, such as reducing the urban heat island effect, lowering residents’ stress levels, and contributing to lower levels of depression among residents.
 
-![Article](website-graphics/Dashboard Materials/main_article_summary.png)
+![Article](graphics/main_article_summary.png)
 
-![Greened lots example](website-graphics/Dashboard Materials/transformed_lots.png)
+![Greened lots example](graphics/transformed_lots.png)
 
 Importantly, community residents are already following the data and taking matters into their own hands. This map aims to turn this research into an actionable tool to empower community members to continue making a positive difference in their neighborhoods.
 
@@ -28,7 +28,7 @@ This map combines data on vacant and abandoned properties from the Department of
 
 The basic methodology is as follows. First, crime data were filtered to include only gun crimes (reported as “aggravated assault firearm” and “robbery firearm” by PPD) in the past year. This follows the research upon which the dashboard is based. These points were then used to calculate a [kernel density estimate] (https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-kernel-density-works.htm) (KDE), which indicates the intensity of gun crime at any point in space. The KDE was then extracted to each vacant parcel to indicate the local level of gun violence. Finally, to make the gun crime rates easier to understand, each parcel was classified by the percentile into which its gun crime score falls. Those interested in a more in-depth understanding of how this map was produced can view the Python code behind the dataset in this GitHub repository.
 
-![Kernel density estimate](website-graphics/kde_map.png)
+![Kernel density estimate](graphics/kde_map.png)
 
 
 ## Attribution
