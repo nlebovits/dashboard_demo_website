@@ -1,0 +1,23 @@
+---
+title: "How We Built It"
+---
+
+Based on those conversations, I developed a Python script that classified every vacant property in
+the City based on priority level and acquisiton process. Priority level was estimated based on the
+surrounding rate of gun crime and the relative lack of tree canopy cover. One major challenge in
+this presentation was explaining the concept of a Python script to a non-coder audience; it required
+me to think creatively about how to represent code in a more intuitive graphic form.
+
+![Priority chart](website-graphics/priority_table.png)
+
+I used a decision tree to suggest the most relevant
+legal process necessary to intervene in every single
+property in Philadelphia. Because it deals with
+sophisticated legal processes, this decision tree is far
+from final. However, it is a good starting point, and I
+am in the process of getting further input from
+organizations and agencies like the Garden Justice
+Legal Initiative and the Philadelphia Land Bank.
+
+![Decision tree](website-graphics/parcels_decision_tree.png)
+
