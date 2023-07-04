@@ -25,8 +25,7 @@ format:
     mainfont: Nunito
     css: styles.css
     toc: true
-    layout:
-      margin-left
+    page-layout: full
 
 editor: visual
 

@@ -105,7 +105,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -129,6 +135,8 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The interface allows users to view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates (“priority level”), how the property can be legally acquired, and other relevant info such as price and the relevant RCO.</p>
 <iframe style="display: block; margin-left: 0;" width="1300" height="1000" src="https://nlebovits.github.io/vacancy_guncrime_dash/" title="Dashboard"></iframe>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
 <p>Philadelphia has a gun violence problem.</p>
 <p>Philadelphia has roughly 40,000 vacant parcels.</p>
 <p>Research shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.</p>
@@ -138,6 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <p>We can focus on high-priority properties that are relatively easy to acquire.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
