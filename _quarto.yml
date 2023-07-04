@@ -9,8 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - take_action.qmd
       - more_info.qmd
+      - take_action.qmd
     page-footer: 
     background: light
     left: 
