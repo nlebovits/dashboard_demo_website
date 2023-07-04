@@ -39,7 +39,14 @@
     "href": "index.html",
     "title": "Vacant Properties Dashboard",
     "section": "",
-    "text": "The interface allows users to view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates (“priority level”), how the property can be legally acquired, and other relevant info such as price and the relevant RCO.\n\nPhiladelphia has a gun violence problem.\nPhiladelphia has roughly 40,000 vacant parcels.\nResearch shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.\nIdentifying the highest-priority vacant properties will allow community groups to invest their limited resources where they will have the biggest impact.\nEvery property in Philadelphia can be classified as high, medium, or low priority based on the rate of nearby gun crime and the relative level of tree canopy cover.\nUsing a decision tree, it’s possible to identify the ideal acquisition process for every abandoned property in Philadelphia.\nWe can focus on high-priority properties that are relatively easy to acquire."
+    "text": "The interface allows users to view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates (“priority level”), how the property can be legally acquired, and other relevant info such as price and the relevant RCO."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Vacant Properties Dashboard",
+    "section": "Background",
+    "text": "Background\nPhiladelphia has a gun violence problem.\nPhiladelphia has roughly 40,000 vacant parcels.\nResearch shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.\nIdentifying the highest-priority vacant properties will allow community groups to invest their limited resources where they will have the biggest impact.\nEvery property in Philadelphia can be classified as high, medium, or low priority based on the rate of nearby gun crime and the relative level of tree canopy cover.\nUsing a decision tree, it’s possible to identify the ideal acquisition process for every abandoned property in Philadelphia.\nWe can focus on high-priority properties that are relatively easy to acquire."
   },
   {
     "objectID": "more_info.html",

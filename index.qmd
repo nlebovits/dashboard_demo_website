@@ -11,6 +11,8 @@ The interface allows users to view every single vacant or abandoned property in 
 ```
 
 
+## Background
+
 
 Philadelphia has a gun violence problem.
 
