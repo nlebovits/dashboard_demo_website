@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Philadelphia has a gun violence problem. Homicides have been on the rise since 2013. The past three years—2020, 2021, and 2022—have been the deadliest on record, with a high of 562 homicides in 2021. Community members need solutions, but many city-run initiatives are frustratingly slow or inadequate. Nearly 80% of the city’s anti-violence spending focuses on long-term violence reduction without any clear, immediate impact.\n\n\n\nAnnual gun crimes"
+  },
+  {
+    "objectID": "about.html#research",
+    "href": "about.html#research",
+    "title": "About",
+    "section": "Research",
+    "text": "Research\nResearch shows that greening and cleaning vacant and abandoned parcels is one of the most impactful, cost-effective interventions available to reduce gun violence in a neighborhood.\nDrs. Eugenia South and Charles Branas have led several studies that demonstrate that greening vacant lots in Philadelphia reduced gun violence by as much as 29% in the surrounding area. Similarly, cleaning and lightly repairing vacant houses led a 13% drop in gun assaults compared to nearby blocks. These “greening and cleaning” interventions not only reduce gun violence but also provide other benefits, such as reducing the urban heat island effect, lowering residents’ stress levels, and contributing to lower levels of depression among residents.\n\n\n\nArticle\n\n\n\n\n\nGreened lots example\n\n\nImportantly, community residents are already following the data and taking matters into their own hands. This map aims to turn this research into an actionable tool to empower community members to continue making a positive difference in their neighborhoods."
+  },
+  {
+    "objectID": "about.html#methodology",
+    "href": "about.html#methodology",
+    "title": "About",
+    "section": "Methodology",
+    "text": "Methodology\nThis map combines data on vacant and abandoned properties from the Department of Licenses and Inspections with Philadelphia Police Department data on gun violence. Additional datasets from a variety of other sources provide more information about each parcel, such as what neighborhood it falls in and whether it’s in the PHS Community LandCare or Philadelphia LandCare programs.\nThe basic methodology is as follows. First, crime data were filtered to include only gun crimes (reported as “aggravated assault firearm” and “robbery firearm” by PPD) in the past year. This follows the research upon which the dashboard is based. These points were then used to calculate a [kernel density estimate] (https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-kernel-density-works.htm) (KDE), which indicates the intensity of gun crime at any point in space. The KDE was then extracted to each vacant parcel to indicate the local level of gun violence. Finally, to make the gun crime rates easier to understand, each parcel was classified by the percentile into which its gun crime score falls. Those interested in a more in-depth understanding of how this map was produced can view the Python code behind the dataset in this GitHub repository.\n\n\n\nKernel density estimate"
+  },
+  {
+    "objectID": "about.html#attribution",
+    "href": "about.html#attribution",
+    "title": "About",
+    "section": "Attribution",
+    "text": "Attribution\nThis dashboard was built by Nissim Lebovits. He is a master's student in city planning at the University of Pennsylvania's Weitzman School of Design, where he focuses on environmental planning and spatial analysis. He's interested in using data to foster civic engagement and build more sustainable, inclusive cities. Previously he was an AmeriCorps VISTA with the City of Philadelphia, where he worked to support residents of the West Philadelphia Promise Zone. For questions about this dashboard, to see more of his work, or to hire him to support your community organization's data work, please see his website."
+  },
+  {
+    "objectID": "about.html#acknowledgements",
+    "href": "about.html#acknowledgements",
+    "title": "About",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMany people helped inform this tool, including residents, CDC leaders, City staff, Penn faculty, and more. Special thanks, however, are due to Dante Leonard for facilitating countless valuable conversations with people throughout Philadelphia, to Mjumbe Poe for serving as my independent study instructor while I built the JavaScript dashboard and website, to Vicky Tam for teaching the GIS class in which I built the first functional version of this tool, and to Dr. Eugenia South for spearheading the original research upon which this tool is based."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vacant Properties Dashboard",
+    "section": "",
+    "text": "The interface allows users to view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates (“priority level”), how the property can be legally acquired, and other relevant info such as price and the relevant RCO.\n\nPhiladelphia has a gun violence problem.\nPhiladelphia has roughly 40,000 vacant parcels.\nResearch shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.\nIdentifying the highest-priority vacant properties will allow community groups to invest their limited resources where they will have the biggest impact.\nEvery property in Philadelphia can be classified as high, medium, or low priority based on the rate of nearby gun crime and the relative level of tree canopy cover.\nUsing a decision tree, it’s possible to identify the ideal acquisition process for every abandoned property in Philadelphia.\nWe can focus on high-priority properties that are relatively easy to acquire."
+  },
+  {
+    "objectID": "more_info.html",
+    "href": "more_info.html",
+    "title": "How We Built It",
+    "section": "",
+    "text": "Based on those conversations, I developed a Python script that classified every vacant property in the City based on priority level and acquisiton process. Priority level was estimated based on the surrounding rate of gun crime and the relative lack of tree canopy cover. One major challenge in this presentation was explaining the concept of a Python script to a non-coder audience; it required me to think creatively about how to represent code in a more intuitive graphic form.\n\n\n\nPriority chart\n\n\nI used a decision tree to suggest the most relevant legal process necessary to intervene in every single property in Philadelphia. Because it deals with sophisticated legal processes, this decision tree is far from final. However, it is a good starting point, and I am in the process of getting further input from organizations and agencies like the Garden Justice Legal Initiative and the Philadelphia Land Bank.\n\n\n\nDecision tree"
+  },
+  {
+    "objectID": "take_action.html",
+    "href": "take_action.html",
+    "title": "Take Action",
+    "section": "",
+    "text": "This project is mainly meant to support “cleaning and greening” to deter gun violence. According to the research that this dashboard is based on , that involves:\n\nRemoving trash and debris\nGrading the land\nPlanting a small number of trees to create a park-like setting\nInstalling low-perimeter (about 1 meter high) fences with multiple ungated entrances to encourage use\nRegularly maintaining the lot\n\nThis approach has been shown to be inexpensive and cost-effective, with costs averaging about $5 per square meter and maintenance averaging $0.50 per square meter thereafter. If you’re not able to take on a full intervention, it’s still worthwhile to install a fence, plant trees, or even simply keep the lot free of trash, which can be done on your own."
+  },
+  {
+    "objectID": "take_action.html#where-can-i-get-help",
+    "href": "take_action.html#where-can-i-get-help",
+    "title": "Take Action",
+    "section": "Where can I get help?",
+    "text": "Where can I get help?\nTo carry out something like this, try getting in touch with your local Neighborhood Advisory Committee , a nearby Community Development Corporation , or your local representative . Explain to them what you want to do and why. Show them this map to support your explanation!\nBe mindful of trespassing on private property. You can use the dashboard tool above to identify which lots are privately owned. Consider reaching out to a lot owner and explaining why you want to carry out a lot cleanup in order to get permission.\nLastly, you can also use these data to convince your NAC, CDC, elected official, or another organization to take action. If you are interested in getting specific data that were used to build this tool, contact me and let me know how I can help.\n\nOverview\n\n\nDecision Tree\n\n\nPotential Uses for Parcels"
+  },
+  {
+    "objectID": "take_action.html#things-to-consider",
+    "href": "take_action.html#things-to-consider",
+    "title": "Take Action",
+    "section": "Things to Consider",
+    "text": "Things to Consider\n\nFunding\n\n\nLong-Term Maintenance\n\n\nGentrification"
+  }
+]
