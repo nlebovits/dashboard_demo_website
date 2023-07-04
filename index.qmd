@@ -4,26 +4,17 @@ title: "Vacant Properties Dashboard"
 
 
 
-The interface allows users to view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates ("priority level"), how the property can be legally acquired, and other relevant info such as price and the relevant RCO.
+\
+\
+
+#### Philadelphia has a gun violence problem. This dashboard aims to help solve it.
+\
+Below, you can view every single vacant or abandoned property in Philadelphia. Users can search, zoom, filter, and export data. Every property is listed along with ownership data, the importance of intervention based on gun crime rates ("priority level"), how the property can be legally acquired, and other relevant info such as price and the relevant RCO. 
+
+Click elsewhere on the website to learn about [why this exists](about), [how it was built](more_info), and [what you can do with it](take_action).
+\
+\
 
 ```{=html}
 <iframe style="display: block; margin-left: 0;" width="1300" height="1000" src="https://nlebovits.github.io/vacancy_guncrime_dash/" title="Dashboard"></iframe>
 ```
-
-
-## Background
-
-
-Philadelphia has a gun violence problem.
-
-Philadelphia has roughly 40,000 vacant parcels.
-
-Research shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.
-
-Identifying the highest-priority vacant properties will allow community groups to invest their limited resources where they will have the biggest impact.
-
-Every property in Philadelphia can be classified as high, medium, or low priority based on the rate of nearby gun crime and the relative level of tree canopy cover.
-
-Using a decision tree, it's possible to identify the ideal acquisition process for every abandoned property in Philadelphia.
-
-We can focus on high-priority properties that are relatively easy to acquire.

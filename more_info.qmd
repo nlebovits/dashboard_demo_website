@@ -2,6 +2,26 @@
 title: "How We Built It"
 ---
 
+
+
+
+## Background
+
+
+Philadelphia has a gun violence problem.
+
+Philadelphia has roughly 40,000 vacant parcels.
+
+Research shows that cleaning and greening abandoned lots and buildings reduces gun crime by as much as 29%.
+
+Identifying the highest-priority vacant properties will allow community groups to invest their limited resources where they will have the biggest impact.
+
+Every property in Philadelphia can be classified as high, medium, or low priority based on the rate of nearby gun crime and the relative level of tree canopy cover.
+
+Using a decision tree, it's possible to identify the ideal acquisition process for every abandoned property in Philadelphia.
+
+We can focus on high-priority properties that are relatively easy to acquire.
+
 Based on those conversations, I developed a Python script that classified every vacant property in
 the City based on priority level and acquisiton process. Priority level was estimated based on the
 surrounding rate of gun crime and the relative lack of tree canopy cover. One major challenge in
