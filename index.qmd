@@ -16,5 +16,5 @@ Click elsewhere on the website to learn about [why this exists](about), [how it 
 \
 
 ```{=html}
-<iframe style="display: block; margin-left: 0;" width="1300" height="1000" src="https://nlebovits.github.io/vacancy_guncrime_dash/" title="Dashboard"></iframe>
+<iframe style="display: block; margin-left: 0;" width="1300" height="1000" src="https://codeforphilly.github.io/vacancy_guncrime_dash/" title="Dashboard"></iframe>
 ```
